@@ -22,7 +22,8 @@ public class Professor extends FuncBonus{
 
     @Override
     public String toString() {
-        return "\n Quantidade de aulas por semana = " + qtdAulasSem +
+        return "\n\n Nome do Funcionário = " + getNome() +
+                "\n Quantidade de aulas por semana = " + qtdAulasSem +
                 "\n Valor do Salário + Bônus = " + getValorBonus();
     }
 }

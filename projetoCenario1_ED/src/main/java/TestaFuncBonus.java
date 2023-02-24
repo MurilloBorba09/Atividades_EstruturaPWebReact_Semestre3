@@ -10,6 +10,6 @@ public class TestaFuncBonus {
         contBonus.adicionaFuncBonus(prof1);
         contBonus.adicionaFuncBonus(coord1);
         contBonus.exibeFuncBonus();
-        System.out.println(" Valor total de Salário + Bônus = " + contBonus.calculaTotalBonus());
+        System.out.println("\n Valor total de Salário + Bônus = " + contBonus.calculaTotalBonus());
     }
 }

@@ -22,7 +22,8 @@ public class Coordenador extends FuncBonus{
 
     @Override
     public String toString() {
-        return "\n Quantidade de horas por semana = " + qtdHorSem +
+        return "\n\n Nome do Funcionário = " + getNome() +
+                "\n Quantidade de horas por semana = " + qtdHorSem +
                 "\n Valor do Salário + Bônus = " + getValorBonus();
     }
 }
