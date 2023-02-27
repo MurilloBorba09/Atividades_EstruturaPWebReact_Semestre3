@@ -40,28 +40,37 @@ public class Hospital {
         this.cnpj = cnpj;
     }
 
-    public void exibeFunc() {
-
-    }
-
     public void adicionaFunc(Funcionario func) {
-
+        funcionarios.add(func);
     }
 
     public void exibeFuncGeral() {
-
+        System.out.println(funcionarios);
     }
 
     public double calculaSalarioGeral() {
-        return 0.0;
+        double salarioGeral = 0.0;
+
+        for(int i = 0; i < funcionarios.size(); i++) {
+            salarioGeral += funcionarios.get(i).calcSalario();
+        }
+        return salarioGeral;
     }
 
     public void exibeFuncMedic() {
+        for(int i = 0; i < funcionarios.size(); i++) {
+            if() {
 
+            }
+        }
     }
 
     public void exibeFuncRh() {
+        for(int i = 0; i < funcionarios.size(); i++) {
+            if() {
 
+            }
+        }
     }
 
     @Override
