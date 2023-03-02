@@ -23,7 +23,8 @@ public class Recepcionista extends Funcionario{
 
     @Override
     public String toString() {
-        return "\n cpf = " + cpf +
-                super.toString();
+        return "\n Recepcionista: " +
+                "\n cpf = " + cpf +
+                super.toString() + "\n";
     }
 }

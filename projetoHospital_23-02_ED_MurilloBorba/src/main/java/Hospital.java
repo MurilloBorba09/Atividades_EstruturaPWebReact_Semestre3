@@ -59,16 +59,16 @@ public class Hospital {
 
     public void exibeFuncMedic() {
         for(int i = 0; i < funcionarios.size(); i++) {
-            if() {
-
+            if(funcionarios.get(i) instanceof FuncMedicina) {
+                System.out.println(funcionarios.get(i));
             }
         }
     }
 
     public void exibeFuncRh() {
         for(int i = 0; i < funcionarios.size(); i++) {
-            if() {
-
+            if(funcionarios.get(i) instanceof FuncRH) {
+                System.out.println(funcionarios.get(i));
             }
         }
     }
@@ -78,6 +78,6 @@ public class Hospital {
         return "\n Nome do Hospital = " + nome +
                 "\n Endereço do Hospital = " + endereco +
                 "\n CNPJ = " + cnpj +
-                "\n Funcionarios do Hospital = " + funcionarios;
+                "\n Funcionarios do Hospital = " + funcionarios + "\n";
     }
 }

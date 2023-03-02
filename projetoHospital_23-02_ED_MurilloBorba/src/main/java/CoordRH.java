@@ -22,7 +22,8 @@ public class CoordRH extends FuncRH{
 
     @Override
     public String toString() {
-        return "\n Valor de bonus = " + bonus +
-                super.toString();
+        return "\n Coordenador de RH: " +
+                "\n Valor de bonus = " + bonus +
+                super.toString() + "\n";
     }
 }

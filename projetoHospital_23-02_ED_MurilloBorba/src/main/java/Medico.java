@@ -29,7 +29,8 @@ public class Medico extends FuncMedicina{
 
     @Override
     public String toString() {
-        return "\n Consultas Feitas = " + consultasFeitas +
-                super.toString();
+        return "\n Medico: " +
+                "\n Consultas Feitas = " + consultasFeitas +
+                super.toString() + "\n";
     }
 }

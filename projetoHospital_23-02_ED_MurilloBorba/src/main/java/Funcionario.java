@@ -41,6 +41,6 @@ public abstract class Funcionario {
         return "\n Nome do Funcionário = " + nome +
                 "\n Valor da hora trabalhada = " + valorHora +
                 "\n Horas trabalhadas = " + hrsTrabalhadas +
-                "\n Salário = " + calcSalario();
+                "\n Salário = " + calcSalario() + "\n";
     }
 }

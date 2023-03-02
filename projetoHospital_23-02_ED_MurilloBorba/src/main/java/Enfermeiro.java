@@ -18,7 +18,6 @@ public class Enfermeiro extends FuncMedicina{
 
     @Override
     public String toString() {
-
-        return super.toString();
+        return "\n Enfermeiro: " + super.toString() + "\n";
     }
 }

@@ -11,6 +11,6 @@ public class AnalistRH extends FuncRH{
 
     @Override
     public String toString() {
-        return super.toString();
+        return "\n Analista de RH: " + super.toString() + "\n";
     }
 }

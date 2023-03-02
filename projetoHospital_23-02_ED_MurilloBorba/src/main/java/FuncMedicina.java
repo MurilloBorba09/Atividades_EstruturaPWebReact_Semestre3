@@ -31,6 +31,6 @@ public abstract class FuncMedicina extends Funcionario{
     public String toString() {
         return "\n CRM = " + crm +
                 "\n Estado de atuação = " + estado +
-                super.toString();
+                super.toString() + "\n";
     }
 }

@@ -29,6 +29,6 @@ public abstract class FuncRH extends Funcionario{
     public String toString() {
         return "\n cpf = " + cpf +
                 "\n cidade = " + cidade +
-                super.toString();
+                super.toString() + "\n";
     }
 }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/projeto2/projeto2/pom.xml" />
+        <option value="$PROJECT_DIR$/projeto3/projeto3/pom.xml" />
+        <option value="$PROJECT_DIR$/projeto4/projeto4/pom.xml" />
+        <option value="$PROJECT_DIR$/projeto5/projeto5/pom.xml" />
+        <option value="$PROJECT_DIR$/projeto3_ED/projeto3_ED/pom.xml" />
+        <option value="$PROJECT_DIR$/projeto-api-PWEB/projeto-api-PWEB/pom.xml" />
+        <option value="$PROJECT_DIR$/projetoCenario1_ED/pom.xml" />
+        <option value="$PROJECT_DIR$/projetoCenario2_ED/pom.xml" />
+        <option value="$PROJECT_DIR$/Ativ01_Aluno_07-02_ED/Ativ01_Aluno_07-02_ED/pom.xml" />
+        <option value="$PROJECT_DIR$/projeto-gerirArmazenamento/pom.xml" />
+        <option value="$PROJECT_DIR$/ProjetoExempInterface_09-02_ED1/pom.xml" />
+        <option value="$PROJECT_DIR$/login-logoff-01221037-Murillo-Borba/login-logoff-01221037-Murillo-Borba/pom.xml" />
+        <option value="$PROJECT_DIR$/projetoHospital_23-02_ED_MurilloBorba/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

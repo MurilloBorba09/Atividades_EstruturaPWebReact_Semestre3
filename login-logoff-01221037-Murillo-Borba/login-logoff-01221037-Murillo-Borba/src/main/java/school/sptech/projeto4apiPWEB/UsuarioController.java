@@ -24,7 +24,7 @@ public class UsuarioController {
     }
 
     /*
-        localhost:8080/musicas
+        localhost:8080/usuarios
     */
 
     @PostMapping()
