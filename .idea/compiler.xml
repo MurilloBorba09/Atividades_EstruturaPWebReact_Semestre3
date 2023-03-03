@@ -10,14 +10,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="projetoCenario2_ED" />
-        <module name="projeto-api-PWEB" />
         <module name="projetoCenario1_ED" />
-        <module name="projeto3" />
+        <module name="projeto-api-PWEB" />
         <module name="projeto3_ED" />
+        <module name="projeto3" />
+        <module name="projeto2 (3)" />
         <module name="projeto-gerirArmazenamento" />
         <module name="projeto2 (1)" />
-        <module name="projeto2 (2)" />
         <module name="ProjetoExempInterface_09-02_ED1" />
+        <module name="projeto2 (2)" />
         <module name="projeto4-api-PWEB" />
         <module name="Ativ01_Aluno_07-02_ED" />
         <module name="projeto2" />
@@ -31,6 +32,7 @@
       <module name="projeto2" target="17" />
       <module name="projeto2 (1)" target="17" />
       <module name="projeto2 (2)" target="17" />
+      <module name="projeto2 (3)" target="17" />
       <module name="projeto3" target="17" />
       <module name="projeto3_ED" target="17" />
       <module name="projeto4-api-PWEB" target="11" />
@@ -46,6 +48,7 @@
       <module name="projeto2" options="-parameters" />
       <module name="projeto2 (1)" options="-parameters" />
       <module name="projeto2 (2)" options="-parameters" />
+      <module name="projeto2 (3)" options="-parameters" />
       <module name="projeto3" options="-parameters" />
       <module name="projeto4-api-PWEB" options="-parameters" />
     </option>

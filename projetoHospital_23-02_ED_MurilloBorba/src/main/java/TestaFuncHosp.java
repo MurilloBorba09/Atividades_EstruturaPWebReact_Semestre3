@@ -18,7 +18,7 @@ public class TestaFuncHosp {
 
         hosp1.exibeFuncGeral();
         System.out.println( "\n Salário Geral = " + hosp1.calculaSalarioGeral());
-        //hosp1.exibeFuncMedic();
-        //hosp1.exibeFuncRh();
+        hosp1.exibeFuncMedic();
+        hosp1.exibeFuncRh();
     }
 }
