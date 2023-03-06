@@ -12,6 +12,8 @@
         <module name="projetoCenario2_ED" />
         <module name="projetoCenario1_ED" />
         <module name="projeto-api-PWEB" />
+        <module name="exemplo-vetor" />
+        <module name="exercicio-vetor-MurilloBorba" />
         <module name="projeto3_ED" />
         <module name="projeto3" />
         <module name="projeto2 (3)" />
@@ -27,6 +29,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Ativ01_Aluno_07-02_ED" target="17" />
+      <module name="exemplo-vetor" target="17" />
+      <module name="exercicio-vetor-MurilloBorba" target="17" />
       <module name="projeto-api-PWEB" target="17" />
       <module name="projeto-gerirArmazenamento" target="17" />
       <module name="projeto2" target="17" />

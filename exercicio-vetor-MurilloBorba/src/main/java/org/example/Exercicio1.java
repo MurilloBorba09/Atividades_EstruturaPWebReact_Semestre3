@@ -23,7 +23,7 @@ public class Exercicio1 {
         Scanner leitor = new Scanner(System.in);
 
         for(int i = 0; i < 7; i++){
-            System.out.println(" Digite um número: ");
+            System.out.println(" Digite um número de 1 a 7: ");
             vetor[i] = leitor.nextInt();
         }
         System.out.println(" Vetor respectivamente: \n");
