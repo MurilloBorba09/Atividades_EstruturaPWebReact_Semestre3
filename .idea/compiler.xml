@@ -11,8 +11,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="projetoCenario2_ED" />
         <module name="projetoCenario1_ED" />
-        <module name="projeto-api-PWEB" />
         <module name="exemplo-vetor" />
+        <module name="projeto-api-PWEB" />
         <module name="exercicio-vetor-MurilloBorba" />
         <module name="projeto3_ED" />
         <module name="projeto3" />
@@ -25,10 +25,12 @@
         <module name="Ativ01_Aluno_07-02_ED" />
         <module name="projeto2" />
         <module name="projetoHospital_23-02_ED_MurilloBorba" />
+        <module name="atividade01_PWEB_06-03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Ativ01_Aluno_07-02_ED" target="17" />
+      <module name="atividade01_PWEB_06-03" target="11" />
       <module name="exemplo-vetor" target="17" />
       <module name="exercicio-vetor-MurilloBorba" target="17" />
       <module name="projeto-api-PWEB" target="17" />
@@ -48,6 +50,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="atividade01_PWEB_06-03" options="-parameters" />
       <module name="projeto-api-PWEB" options="-parameters" />
       <module name="projeto2" options="-parameters" />
       <module name="projeto2 (1)" options="-parameters" />
