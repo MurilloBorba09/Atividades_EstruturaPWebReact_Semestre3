@@ -5,17 +5,15 @@ public class Boletim {
     private String nome;
     private double nota1;
     private double nota2;
-    private double media;
 
     public Boletim() {
 
     }
 
-    public Boletim(String nome, double nota1, double nota2, double media) {
+    public Boletim(String nome, double nota1, double nota2) {
         this.nome = nome;
         this.nota1 = nota1;
         this.nota2 = nota2;
-        this.media = media;
     }
 
     public String getNome() {
@@ -40,13 +38,5 @@ public class Boletim {
 
     public void setNota2(double nota2) {
         this.nota2 = nota2;
-    }
-
-    public double getMedia() {
-        return media;
-    }
-
-    public void setMedia(double media) {
-        this.media = media;
     }
 }

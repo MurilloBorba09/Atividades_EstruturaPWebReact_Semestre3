@@ -13,8 +13,8 @@ public class BoletimController {
 
     public BoletimController() {
         this.boletins = new ArrayList<>();
-        this.boletins.add(new Boletim("Murillo", 10.0, 8.5, 7.0));
-        this.boletins.add(new Boletim("Marcia", 9.0, 9.5, 9.0));
+        this.boletins.add(new Boletim("Murillo", 10.0, 8.5));
+        this.boletins.add(new Boletim("Marcia", 9.0, 9.5));
     }
 
     /*
@@ -42,12 +42,46 @@ public class BoletimController {
         localhost:8080/musicas/{indice}
     */
 
-    @DeleteMapping("/indice")
+    @DeleteMapping("/{indice}")
     public String deletarPorID(@PathVariable int indice) {
         if(indice >= 0 && indice < boletins.size()) {
             boletins.remove(indice);
-            return "Excluído! ";
+            return "Excluído. ";
         }
-        return "Deu ruim!";
+        return "Deu ruim.";
     }
+
+    /*
+        GET - localhost:8080/musicas/
+    */
+
+    @PostMapping
+    public Boletim cadastrar(@RequestBody Boletim novoBoletim) {
+        //Boletim novoBoletim = new Boletim(nome, nota1, nota2);
+        this.boletins.add(novoBoletim);
+        return novoBoletim;
+    }
+
+    /*
+        GET - localhost:8080/musicas/contagem
+    */
+
+    @GetMapping("/contagem")
+    public int qtdBoletins() {
+        return boletins.size();
+    }
+
+//    @GetMapping("/{indice}")
+//    public double mostrarMedia(@RequestBody Boletim boletim) {
+//        double media = 0.0;
+//        if(indice >= 0 && indice < boletins.size()) {
+//            media =
+//        }
+//        return media;
+//    }
+
+//    @GetMapping()
+//    public List<Boletim> listarMelhores() {
+//
+//    }
 }
