@@ -2,8 +2,12 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/projeto6-orm-PWEB/projeto6-orm-PWEB/src/main" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.25" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.25" level="project" />
   </component>
 </module>

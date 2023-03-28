@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "c267f136-4667-4cbd-bbbf-4d4f47c8ec39",
+		"name": "3ADSA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3632185"
+	},
+	"item": [
+		{
+			"name": "exercicio response entity",
+			"item": [
+				{
+					"name": "Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/filmes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"filmes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por indice",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/filmes/0",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"filmes",
+								"0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"Te\",\n  \"anoLancamento\": 1896,\n  \"qtdOscar\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/filmes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"filmes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Filme",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"Te\",\n  \"anoLancamento\": 1900,\n  \"qtdOscar\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/filmes/0",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"filmes",
+								"0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Oscar",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"quantidade\": 1000\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/filmes/0",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"filmes",
+								"0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Exercicio Produto",
+			"item": [
+				{
+					"name": "Listar",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/produtos",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"produtos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/produtos/0",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"produtos",
+								"0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nome\": \"teste\",\n  \"precoUnitario\": 0.10,\n  \"quantidadeEstoque\": 10\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/produtos",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"produtos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

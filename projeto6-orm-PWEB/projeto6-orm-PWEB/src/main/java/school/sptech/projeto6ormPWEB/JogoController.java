@@ -1,4 +1,4 @@
-package school.sptech.projeto6ormPWEB;
+package java.school.sptech.projeto6ormPWEB;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
